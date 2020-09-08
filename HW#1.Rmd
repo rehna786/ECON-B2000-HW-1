@@ -1,0 +1,30 @@
+---
+title: "HW#1"
+author: "Mirajul Fahim"
+date: "9/6/2020"
+output: html_document
+---
+
+
+1.Mirajul,Rehna,Antonio,Ahmed
+2.4 2 2 2 3 4 3 6 2 4 6 6 2 1 5 4 5 6 1 6
+3. The only way to roll a 6 more or less often would be to manipulate the dice to force a roll of a specific side. In order to know what is "more often", would pertain to rolling different sides of the dice with different probabilities. 
+
+Fair Roll
+```{r}
+Roll_Die = function(n) sample(1:6, n, rep = T)
+
+Roll_Die(20)
+```
+
+Adjusted Roll
+```{r}
+Roll_Die = function(n) sample(1:6, n, rep = T,prob = c(rep(1/7, 5), 2/7))
+
+Roll_Die(20)
+
+```
+
+4. The average for women in the sample was 42.72 and the average age for men in the sample was 40.35. I found interesting among Hispanics, Hisp_PR has the highest education attainment of 0.0436. This is particularly interesting to me because I was curious why this group of people had a larger education attainment relative to other Hispanics within the region. 
+
+5.
