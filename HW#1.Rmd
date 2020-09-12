@@ -6,7 +6,7 @@ output: html_document
 ---
 
 
-1.Mirajul,Rehna,Antonio,Ahmed
+1.Mirajul,Rehana,Antonio,Ahmed
 2.4 2 2 2 3 4 3 6 2 4 6 6 2 1 5 4 5 6 1 6
 3. The only way to roll a 6 more or less often would be to manipulate the dice to force a roll of a specific side. In order to know what is "more often", would pertain to rolling different sides of the dice with different probabilities. 
 
